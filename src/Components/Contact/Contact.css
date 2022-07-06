@@ -1,0 +1,45 @@
+.contact__container {
+  display: flex;
+  margin-top: 5rem;
+}
+
+.section1 {
+  margin-left: 12rem;
+  line-height: 2;
+}
+
+.section1 img.logo {
+  width: 120px;
+  margin-left: -2rem;
+}
+
+.section1 img.elipse {
+  transform: translateX(-198px);
+  margin-bottom: -3rem;
+}
+
+.section1 input {
+  width: 300px;
+  height: 50px;
+  margin: 0 1.5rem 1rem 0;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+.section1 input.message {
+  width: 620px;
+}
+
+.section2 {
+  margin-left: auto;
+  width: 500px;
+  height: 430px;
+  background-color: #f2faff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.section2 .content {
+  margin: 7.5rem auto;
+  width: 45%;
+}
