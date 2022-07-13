@@ -1,7 +1,7 @@
-import Pic22 from "../../Assets/pic22.jpg";
-import Pic51 from "../../Assets/pic51.jpg"
-import Pic52 from "../../Assets/pic52.jpg"
-import Pic53 from "../../Assets/pic53.jpg"
+import Pic22 from "../../Assets/pic22-min.jpg";
+import Pic51 from "../../Assets/pic51-min.jpg"
+import Pic52 from "../../Assets/pic52-min.jpg"
+import Pic53 from "../../Assets/pic53-min.jpg"
 
 export const ReviewsData = [
   {

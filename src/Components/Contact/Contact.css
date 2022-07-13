@@ -1,6 +1,8 @@
 .contact__container {
   display: flex;
-  margin-top: 5rem;
+  max-width: 1400px;
+  margin: 5rem auto;
+  margin-bottom: 0;
 }
 
 .section1 {
@@ -40,6 +42,39 @@
 }
 
 .section2 .content {
-  margin: 7.5rem auto;
+  margin: 5rem auto;
   width: 45%;
+}
+
+.socials .icon {
+  font-size: 1.5rem;
+  margin: 0.4rem;
+}
+
+@media (max-width: 768px) {
+  .contact__container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .section1 {
+    margin: 0;
+    padding: 1.5rem;
+  }
+
+  .section1 input {
+    width: 95%;
+  }
+
+  .section1 input.message {
+    width: 95%;
+  }
+
+  .section2 {
+    width: 100%;
+  }
+
+  .section2 .content {
+    margin: 5rem 1.5rem;
+  }
 }

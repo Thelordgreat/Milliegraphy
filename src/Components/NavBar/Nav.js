@@ -20,26 +20,30 @@ const Nav = () => {
 
   return (
     <nav className="navbar">
-      <h1 className="nav-logo">Milliegraphy</h1>
+      <div className="navbar_content">
+        <h1 className="nav-logo">Milliegraphy</h1>
 
-      <ul className="nav-menu" id="nav-menu">
-        <li className="nav-item" onClick={hideNav}>
-          <Link to="home">Home</Link>
-        </li>
-        <li className="nav-item" onClick={hideNav}>
-          <Link to="about">About</Link>
-        </li>
-        <li className="nav-item" onClick={hideNav}>
-          <Link to="portfolio">Portfolio</Link>
-        </li>
+        <ul className="nav-menu" id="nav-menu">
+          <li className="nav-item" onClick={hideNav}>
+            <Link to="home">Home</Link>
+          </li>
+          <li className="nav-item" onClick={hideNav}>
+            <Link to="about">About</Link>
+          </li>
+          <li className="nav-item" onClick={hideNav}>
+            <Link to="portfolio">Portfolio</Link>
+          </li>
 
-        <li>
-          <Link to="contact" className="a">Contact</Link>
-        </li>
-      </ul>
+          <li>
+            <Link to="contact" className="a">
+              Contact
+            </Link>
+          </li>
+        </ul>
 
-      <div id="toggle">
-        <i className="fas fa-bars"></i>
+        <div id="toggle">
+          <i className="fas fa-bars"></i>
+        </div>
       </div>
     </nav>
   );

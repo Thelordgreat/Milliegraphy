@@ -1,0 +1,11 @@
+.couples.container h2{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.images__container img{
+    width: 320px;
+    height: 410px;
+    border-radius: 1.5rem;
+    margin: 1rem;
+}

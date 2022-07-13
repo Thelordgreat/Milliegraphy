@@ -7,7 +7,7 @@ const Portfolio = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="Portfolio container" id="portfolio">
+    <div className="Portfolio__container" id="portfolio">
       <div className="portfolio__content">
         <h2>Portfolio</h2>
 

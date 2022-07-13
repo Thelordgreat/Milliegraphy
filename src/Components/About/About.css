@@ -36,7 +36,37 @@
 @media (max-width: 768px) {
   .about.container {
     flex-direction: column;
+    width: 100%;
+  }
+
+  .about.container img.my_pic {
+    width: 100%;
     margin: auto;
-    width: 98%;
+  }
+
+  .about__text__box {
+    width: 100%;
+    margin: auto;
+    transform: translateX(0px);
+    padding: 20px;
+  }
+
+  .about__text__box .about__text {
+    width: 100%;
+    margin-top: 3rem;
+    padding: 15px;
+  }
+
+  .about__text__box .about__text h2 {
+    font-size: 2rem;
+    padding: 8px;
+  }
+
+  .about__text__box img {
+    opacity: 0.6;
+  }
+
+  .about__text p{
+    text-align: center;
   }
 }

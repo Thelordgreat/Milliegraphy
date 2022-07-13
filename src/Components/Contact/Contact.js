@@ -1,7 +1,10 @@
 import React from "react";
 import "./Contact.css";
-import logo from '../../Assets/logo3.png'
-import group8 from '../../Assets/Group8.png'
+import logo from '../../Assets/logo3.png';
+import group8 from '../../Assets/Group8.png';
+import { BsInstagram } from "react-icons/bs";
+import { AiFillFacebook } from "react-icons/ai";
+import { AiOutlineTwitter } from "react-icons/ai";
 
 const Contact = () => {
   return (
@@ -33,11 +36,12 @@ const Contact = () => {
             <p>xyz@gmail.com</p>
             <p>+234(456)-789-0000</p>
           </div>
-          <div>
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
+
+          <div className="socials">
+          <h3>Socials</h3>
+            <i><BsInstagram className="icon"/></i>
+            <i><AiFillFacebook className="icon"/></i>
+            <i><AiOutlineTwitter className="icon"/></i>
           </div>
         </div>
       </div>

@@ -1,16 +1,23 @@
 import React from "react";
 import "./About.css";
-import Mypic from "../../Assets/mypic.jpg";
+import Mypic from "../../Assets/mypic-min.jpg";
 import A from "../../Assets/ABOUT.png";
 import { motion } from "framer-motion";
 
 const About = () => {
+  // function isSmall() {
+  //   if (this.windowWidth < 768) {
+  //     return true;
+  //   }
+  //   return false;
+  // }
+
   return (
     <div className="about container" id="about">
       <motion.div
         whileInView={{ x: 0, opacity: 1 }}
         initial={{ x: 80, opacity: 0.5 }}
-        transition={{ type: "tween", duration: 1 }}
+        transition={{ type: "tween", duration: 1.5 }}
       >
         <img src={Mypic} alt="Milliegraphy" className="my_pic" />
       </motion.div>

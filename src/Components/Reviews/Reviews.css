@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 .reviews__container{
-    margin: 13rem 0;
+    max-width: 1400px;
+    margin: 6.5rem auto;
     display: flex;
 }
 
@@ -26,6 +27,7 @@
 
 .reviews__box .reviews__text h3{
     margin-left: -4rem;
+    margin-bottom: 1rem;
 }
 
 .reviews__box .reviews__text hr{
@@ -46,6 +48,7 @@
     height: 410px;
     margin-top: 3.5rem;
     transform: translateX(-60px);
+    
 }
 
 .reviews__container .icons{
@@ -54,12 +57,34 @@
 }
 
 .reviews__container .icon{
-    width: 75px;
-    height: 70px;
+    width: 65px;
+    height: 60px;
     padding: .4rem;
     border-radius: 100%;
     color: grey;
     background-color: #EEF1FF;
     cursor: pointer;
     margin:  0.5rem;
+}
+
+@media (max-width: 768px) {
+    .reviews__container{
+        
+    }
+
+    .reviews__container .testifier{
+        
+    }
+
+    .reviews__container .icon{
+        width: 37.5px;
+    }
+
+    .reviews__box .reviews__text small{
+        padding: 10px;
+    }
+
+    .reviews__box .reviews__text p{
+        font-size: 15px;
+    }
 }

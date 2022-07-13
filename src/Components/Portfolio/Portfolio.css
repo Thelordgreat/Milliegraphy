@@ -1,69 +1,88 @@
-.Portfolio.container{
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+.Portfolio__container {
+  margin: 6rem auto;
+  max-width: 1440px;
 }
 
-.Portfolio.container h2{
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 3rem;
-    font-weight: bold;
+.Portfolio__container h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 4rem;
+  font-weight: bold;
 }
 
-.Portfolio.container .images{
-    display: flex;
-    justify-content: space-evenly;
+.Portfolio__container .images {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.Portfolio.container .images .image1{
-    background-image: url(../../Assets/pic1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 350px;
-    height: 460px;
-    border-radius: 2rem;
-    cursor: pointer;
+.Portfolio__container .images .image1 {
+  background-image: url(../../Assets/pic1-min.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 460px;
+  border-radius: 2rem;
+  cursor: pointer;
 }
 
-.Portfolio.container .images .image2{
-    background-image: url(../../Assets/pic2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 350px;
-    height: 510px;
-    border-radius: 2rem;
-    cursor: pointer;
+.Portfolio__container .images .image2 {
+  background-image: url(../../Assets/pic2-min.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 510px;
+  border-radius: 2rem;
+  cursor: pointer;
 }
 
-.Portfolio.container .images .image3{
-    background-image: url(../../Assets/pic3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 350px;
-    height: 560px;
-    border-radius: 2rem;
-    cursor: pointer;
+.Portfolio__container .images .image3 {
+  background-image: url(../../Assets/pic3-min.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 560px;
+  border-radius: 2rem;
+  cursor: pointer;
 }
 
-.images div a{
-    color: whitesmoke;
-    text-decoration: none;
-    font-size: 2rem;
-    text-align: center;
-    margin-left: 1rem;
-    margin-top: auto;
-    opacity: .8;
-    transition: 1s;
+.images div a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 2rem;
+  text-align: center;
+  margin-left: 1rem;
+  margin-top: auto;
+  opacity: 0.8;
+  transition: 1s;
 }
 
-.images div a:hover{
-    opacity: 1;
+.images div a:hover {
+  opacity: 1;
 }
-
 
 @media (max-width: 768px) {
-    .Portfolio.container .images{
-        flex-direction: column;
-    }
-}
+  .Portfolio__container {
+    width: 100%;
+    padding: 0;
+    
+  }
 
+  .Portfolio__container .images {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .Portfolio__container .images .image1 {
+    margin: auto;
+  }
+
+  .Portfolio__container .images .image2 {
+    margin: auto;
+    height: 460px;
+  }
+
+  .Portfolio__container .images .image3 {
+    margin: auto;
+    height: 460px;
+  }
+}
