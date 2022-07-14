@@ -8,7 +8,7 @@ import Nav from "./Components/NavBar/Nav";
 // import Fashion from "./Components/Portfolio/Fashion/Fashion";
 import Portfolio from "./Components/Portfolio/Portfolio";
 // import Portraits from "./Components/Portfolio/Portraits/Portraits";
-// import Reviews from "./Components/Reviews/Reviews";
+import Reviews from "./Components/Reviews/Reviews";
 
 const App = () => {
   return (
@@ -18,7 +18,7 @@ const App = () => {
         <Header />
         <About />
         <Portfolio />
-        {/* <Reviews /> */}
+        <Reviews />
         <Contact />
 
         {/* <Routes>

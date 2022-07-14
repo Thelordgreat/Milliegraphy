@@ -46,6 +46,7 @@ const Reviews = () => {
         whileInView={{ y: -10, opacity: 1 }}
         initial={{ y: 80, opacity: 0.5 }}
         transition={{ type: "tween", duration: 2 }}
+        className="testifier_container"
       >
         <motion.img
         key={selected}

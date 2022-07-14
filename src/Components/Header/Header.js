@@ -15,6 +15,11 @@ const Header = () => {
         <div className="first_section">
           <div>
             <div className="text__box">
+              <div className="lines">
+                <div className="line1"></div>
+                <div className="line2"></div>
+              </div>
+
               <div className="text">
                 <h2>Adding Colors to reality</h2>
                 <p>

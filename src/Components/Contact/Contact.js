@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
-import logo from '../../Assets/logo3.png';
-import group8 from '../../Assets/Group8.png';
+import logo from "../../Assets/logo3.png";
+import group8 from "../../Assets/Group8.png";
 import { BsInstagram } from "react-icons/bs";
 import { AiFillFacebook } from "react-icons/ai";
 import { AiOutlineTwitter } from "react-icons/ai";
@@ -13,16 +13,21 @@ const Contact = () => {
         <img src={logo} alt="logo" className="logo" />
 
         <h2>Do drop me a message or enquiry</h2>
-        <p>i'll love to hear from you,share your thoughts on my work. <br /> if you are in need of a professional photographer,do reach out</p>
+        <p>
+          i'll love to hear from you,share your thoughts on my work. <br /> if
+          you are in need of a professional photographer,do reach out
+        </p>
 
         <form>
           <input type="text" placeholder="Name" />
           <input type="email" placeholder="Email" />
           <br />
           <input type="text" placeholder="Message" className="message" />
+
+          <a href="#">Message me!</a>
         </form>
 
-        <img src={group8} alt="" className="elipse"/>
+        <img src={group8} alt="" className="elipse" />
       </div>
 
       <div className="section2">
@@ -38,10 +43,16 @@ const Contact = () => {
           </div>
 
           <div className="socials">
-          <h3>Socials</h3>
-            <i><BsInstagram className="icon"/></i>
-            <i><AiFillFacebook className="icon"/></i>
-            <i><AiOutlineTwitter className="icon"/></i>
+            <h3>Socials</h3>
+            <i>
+              <BsInstagram className="icon" />
+            </i>
+            <i>
+              <AiFillFacebook className="icon" />
+            </i>
+            <i>
+              <AiOutlineTwitter className="icon" />
+            </i>
           </div>
         </div>
       </div>
