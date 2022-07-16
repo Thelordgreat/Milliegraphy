@@ -24,7 +24,7 @@ const Contact = () => {
           <br />
           <input type="text" placeholder="Message" className="message" />
 
-          <a href="#">Message me!</a>
+          {/* <a href="/">Message me!</a> */}
         </form>
 
         <img src={group8} alt="" className="elipse" />

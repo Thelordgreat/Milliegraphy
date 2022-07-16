@@ -27,7 +27,7 @@ import Pic8 from '../../../Assets/pic8-min.jpg';
 
 const Couples = () => {
   return (
-    <div className="couples container">
+    <div className="couples__container">
       <h2>Couples Gallery</h2>
 
       <div className="images__container">

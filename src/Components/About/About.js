@@ -15,8 +15,8 @@ const About = () => {
   return (
     <div className="about container" id="about">
       <motion.div
-        whileInView={{ x: 0, opacity: 1 }}
-        initial={{ x: 80, opacity: 0.5 }}
+        whileInView={{ x: 0, opacity: 1, position: "relative" }}
+        initial={{ x: 80, opacity: 0.5, position: "absolute" }}
         transition={{ type: "tween", duration: 1.5 }}
       >
         <img src={Mypic} alt="Milliegraphy" className="my_pic" />

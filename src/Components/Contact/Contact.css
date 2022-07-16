@@ -18,6 +18,7 @@
 .section1 img.elipse {
   transform: translateX(-198px);
   margin-bottom: -3rem;
+  position: relative;
 }
 
 .section1 input {
@@ -59,6 +60,7 @@ form a {
   border-radius: 50px;
   align-items: center;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  visibility: hidden;
 }
 
 @media (max-width: 768px) {
