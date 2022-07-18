@@ -1,6 +1,7 @@
 import React from "react";
 import "./Nav.css";
 import { Link } from "react-scroll";
+import { useNavigate } from "react-router-dom";
 
 const Nav = () => {
   window.onload = function () {
@@ -18,6 +19,8 @@ const Nav = () => {
     closeNav.classList.toggle("active");
   }
 
+  let navigate = useNavigate();
+
   return (
     <nav className="navbar">
       <div className="navbar_content">
@@ -25,17 +28,44 @@ const Nav = () => {
 
         <ul className="nav-menu" id="nav-menu">
           <li className="nav-item" onClick={hideNav}>
-            <Link to="home">Home</Link>
+            <Link
+              to="home"
+              onClick={() => {
+                navigate("/");
+              }}
+            >
+              Home
+            </Link>
           </li>
           <li className="nav-item" onClick={hideNav}>
-            <Link to="about">About</Link>
+            <Link
+              to="about"
+              onClick={() => {
+                navigate("/");
+              }}
+            >
+              About
+            </Link>
           </li>
           <li className="nav-item" onClick={hideNav}>
-            <Link to="portfolio">Portfolio</Link>
+            <Link
+              to="portfolio"
+              onClick={() => {
+                navigate("/");
+              }}
+            >
+              Portfolio
+            </Link>
           </li>
 
           <li>
-            <Link to="contact" className="a">
+            <Link
+              to="contact"
+              className="a"
+              onClick={() => {
+                navigate("/");
+              }}
+            >
               Contact
             </Link>
           </li>
